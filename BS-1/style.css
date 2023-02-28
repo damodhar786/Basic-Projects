@@ -1,0 +1,72 @@
+/* RESET */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgb(246, 247, 244);
+}
+
+/* VARIABLES */
+:root {
+    --FONT-FAMILY: monospace, sans-serif;
+    --FONT-SIZE: 2.5em;
+    --FONT-COLOR: rgba(247, 250, 249, 0.959);
+    --BORDER: 1px solid var(--FONT-COLOR);
+
+}
+
+/* GENERAL STYLES */
+
+header,
+footer {
+    background-color: rgb(245, 78, 122);
+    border: var(--BORDER);
+    text-align: center;
+    position: sticky;
+}
+
+header {
+    border-radius: 0 0 1em 1em;
+    top: 0
+}
+
+footer {
+    border-radius: 0.5em 0.5em 0 0;
+    ;
+    bottom: 0;
+    font-family: var(--FONT-FAMILY);
+    font-size: var(--FONT-SIZE);
+    color: var(--FONT-COLOR);
+}
+
+/* MAIN STYLES */
+
+h1 {
+    font-family: var(--FONT-FAMILY);
+    font-size: var(--FONT-SIZE);
+    color: var(--FONT-COLOR);
+}
+
+main {
+    height: 85vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+button {
+    background-color: aqua;
+    font-weight: bolder;
+    border: 1px solid var(--FONT-COLOR); 
+    border-radius: 0.25em;
+    font-size: 1em;
+    padding: 0.5em;
+}
+
+button:hover{
+    color: rgb(216, 143, 91);
+}
