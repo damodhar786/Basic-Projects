@@ -12,8 +12,6 @@ body {
 }
 
 .container {
-    border: 1px solid black;
-
     width: 95%;
     height: 100vh;
     margin: auto;
@@ -23,7 +21,8 @@ body {
 }
 
 .counter {
-    border: 1px solid black;
+    border: 10px solid #636161;
+    border-radius: 2em;
     background-color: #f4efb4;
     width: 600px;
     height: 250px;
@@ -50,6 +49,7 @@ button{
     font-weight: lighter;
     font-size: 1em;
     padding: 0.5em;
+    margin-bottom: 0.5em;
 }
 
 button:hover{
