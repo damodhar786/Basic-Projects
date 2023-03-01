@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css">
+    <title>Input - Message</title>
+</head>
+
+<body>
+    <div class="container">
+        <div class="messaging-box">
+            <p class="heading">Pass The Message</p>
+            <p class="border-bottom"></p>
+            <p class="message-input">
+                <label for="message-input">Enter a Message: </label>
+                <br>
+                <button class="button-input"><i class="fa-solid fa-comments"></i></button>
+                <input type="text" name="message-input" id="message-input" />
+            </p>
+            <p>
+                <button type="submit" class="button-submit" id="button-submit" onclick="generateMessage()">Send Message</button>
+            </p>
+            <p id="message-output" style="text-align: center; text-transform: uppercase;"></p>
+        </div>
+    </div>
+
+    <script src="main.js"></script>
+</body>
+
+</html>
