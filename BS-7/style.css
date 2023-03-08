@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=Fugaz+One&family=Libre+Baskerville:wght@700&display=swap');
+
+
+body{
+    font-family: "Libre Baskerville", "Fugaz One",cursive ;
+    background: conic-gradient(at top right, slategray, white);
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 95vh;
+    margin: 0 auto;
+}
+
+.clock, .date{
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    width: 50%;
+}
+
+
+.date{
+    border-top: 1px solid rgba(154, 153, 153, 0.5);
+}
+
+.ampm{
+    display: none;
+}
