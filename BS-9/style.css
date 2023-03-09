@@ -1,0 +1,59 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: cursive;
+    background: #fde047;
+}
+
+.container {
+
+    margin: auto;
+    width: 90%;
+    display: flex;
+}
+
+.groceries {
+
+    width: 800px;
+    margin: auto;
+    min-height: 100vh;
+    background: #fdfeff;
+    box-shadow: 0 0 5px 5px rgba(15, 14, 14, 0.5);
+}
+
+.groceries h1 {
+    font-size: 3rem;
+    margin-top: 0.5em;
+}
+
+i,
+input {
+    margin-top: 2em;
+}
+
+.groceries i {
+    font-size: 1.5em;
+    color: #f89d52;
+    cursor: pointer;
+}
+
+.groceries input {
+    width: 80%;
+    outline: 0;
+    border: 0;
+    border-bottom: 3px solid black;
+    font-family: inherit;
+    font-size: large;
+}
+
+.groceryList {
+
+    margin-left: 50px;
+    margin-right: 10px;
+    margin-top: 1em;
+    font-size: 15px;
+    font-weight: 500;
+}
