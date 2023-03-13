@@ -1,0 +1,126 @@
+@import url('https://fonts.googleapis.com/css2?family=Fugaz+One&family=Nunito:ital,wght@1,300&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Nunito", cursive;
+    font-size: 1rem;
+}
+
+button{
+    padding: 8px;
+    outline: none;
+    cursor: pointer;
+    border: 1px solid lightgray;
+    border-radius: 5px;
+    background-color: white;
+    font-family: inherit;
+}
+
+button:hover{
+    background: rgba(1, 1, 1, 0.1);
+}
+
+main{
+    background: linear-gradient(rgb(254, 254, 254), rgb(219, 246, 246), rgb(219, 247, 247));
+    min-height: 100vh;
+}
+
+.nav {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    margin: auto;
+    padding: 20px 20px;
+}
+
+.container {
+    margin: auto;
+    width: 95%;   
+}
+
+.create-box{
+    width: 380px;
+    margin: auto;
+    padding: 20px;
+    margin-top: 10px;
+    border-radius: 5px;
+    box-shadow: -3px -2px 6px 3px rgba(0, 0, 0, 0.25);
+    display: none;
+}
+
+.create-box h2{
+    text-align: center;
+    margin-bottom: 0.5em;
+}
+
+.border{
+    border: 1px solid lightgray;
+    margin-bottom: 1em;
+}
+
+textarea{
+    width: 100%;
+    border-radius: 5px;
+    font-family: inherit;
+    outline: none;
+    padding-left: 2px;
+    margin-bottom: 0.5em;
+}
+
+.create-close-btn{
+    width: 100px;
+}
+
+.flashcards{
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    width: 100%;
+    margin: auto;
+    margin-top: 10px;
+    padding: 0 10px;
+}
+
+.flashcard{
+    width: 300px;
+    height: 200px;
+    word-wrap: break-word;
+    margin: 10px;
+    background-color: white;
+    box-shadow: 2px 2px 4px 4px rgba(0, 0, 0, 0.5);;
+}
+
+.flashcard h2{
+    font-size: 1rem;
+}
+
+@media(max-width: 768px){
+    .flashcard{
+        margin: auto;
+    }
+
+    .flashcard{
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+}
+
+@media(max-width: 480px){
+    .nav{
+        flex-direction: column;
+    }
+
+    .create-box{
+        width: 100%;
+    }
+
+    .flashcard{
+        width: 100%;
+    }
+}

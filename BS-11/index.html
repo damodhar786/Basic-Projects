@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Flascards</title>
+</head>
+
+<body>
+
+    <main>
+        <header>
+            <div class="conatiner">
+                <div class="nav">
+                    <h1>Flascards</h1>
+                    <div>
+                        <button id="new-card" onclick="createNewCard()">New Cards</button>
+                        <button id="delete-all-cards" onclick="deleteAllCards()">Delete All Cards</button>
+                    </div>
+                </div>
+            </div>
+        </header>
+
+        <div class="container">
+            <div class="create-box">
+                <h2>Create Flascards</h2>
+                <p class="border"></p>
+                <label for="question">Question</label>
+                <textarea id="question"></textarea>
+                <br>
+                <label for="answer">Answer</label>
+                <textarea id="answer"></textarea>
+
+                <div>
+                    <button onclick="addFlashCard()" class="create-close-btn">Save</button>
+                    <button onclick="hideCreateBox()" class="create-close-btn">Close</button>
+                </div>
+
+            </div>
+        </div>
+
+        <div class="flashcards"></div>
+    </main>
+
+    <script src="app.js"></script>
+</body>
+
+</html>
