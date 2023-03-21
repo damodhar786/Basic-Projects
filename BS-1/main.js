@@ -1,4 +1,4 @@
-let btn = document.getElementById("btn-click");
+// let btn = document.getElementById("btn-click");
 let view = document.getElementsByTagName("body")[0];
 
 
